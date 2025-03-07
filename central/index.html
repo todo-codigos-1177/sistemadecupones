@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArielDiaz</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Lado izquierdo (panel lateral con las funciones) -->
+        <aside class="sidebar">
+            <h2>Central</h2>
+            <ul>
+                <!-- Eliminar el enlace al formulario de cupones nuevos -->
+                <!-- <li><a href="#" id="dashboard-btn">Cupon nuevo</a></li> -->
+                <li><a href="#" id="courses-btn">Cupones</a></li>
+                <li><a href="#" id="summary-btn">Prestadores</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main container para el contenido y la parte superior con la info del usuario -->
+        <div class="main-container">
+            <header class="header">
+                <div class="user-info">
+                    <img src="./perfil.png" alt="Foto de perfil" class="user-photo">
+                    <div class="user-details">
+                        <h2 id="user-prestadora">Prestadora de Servicio</h2>
+                        <p id="user-direccion">Direccion: </p>
+                        <p id="user-email">Email: usuario@ejemplo.com</p>
+                    </div>
+                </div>
+                <button id="logout-btn">Cerrar sesión</button>
+            </header>
+            <hr class="header-separator">
+            <main id="main-content">
+                <h2>Bienvenido</h2>
+                <p>Selecciona una opción desde el panel lateral para comenzar.</p>
+            </main>
+        </div>
+    </div>
+   
+    <script type="module" src="./script.js"></script>
+    
+</body>
+</html>
